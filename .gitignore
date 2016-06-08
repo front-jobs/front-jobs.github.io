@@ -1,4 +1,3 @@
 node_modules/
-build/
-ncp-debug.log
+bower_components/
 npm-debug.log
