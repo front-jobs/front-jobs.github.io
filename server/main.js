@@ -2,8 +2,10 @@ var express = require('express');
 
 var app = new express();
 
+app.set('view engine', 'html');
+app.engine('html', require('hbs').__express);
+
 app.get('/', function (res, res) {
-	res.render('./../app/index.html', {});
+	res.render('./../app/index', {});
 })
 .listen(7777);
-console.log('Server up na porta 7777');

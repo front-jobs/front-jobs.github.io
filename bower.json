@@ -1,9 +1,8 @@
 {
   "name": "front-jobs",
   "description": "",
-  "main": "index.js",
   "authors": [
-    "Pedro Araujo <pharaujo@uolinc.com>"
+    "Pedro Araujo <pedrotcaraujo@gmail.com>"
   ],
   "license": "ISC",
   "homepage": "https://github.com/pedrotcaraujo/front-jobs.github.io",

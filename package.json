@@ -2,7 +2,6 @@
   "name": "front-jobs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/main.js"
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/pedrotcaraujo/front-jobs.github.io#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "hbs": "^4.0.0"
   }
 }
