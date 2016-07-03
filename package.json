@@ -1,10 +1,11 @@
 {
-  "name": "front-jobs",
+  "name": "front-jobs.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Front Jobs website",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/main.js"
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --content-base ./"
   },
   "repository": {
     "type": "git",
@@ -15,9 +16,12 @@
   "bugs": {
     "url": "https://github.com/front-jobs/front-jobs.github.io/issues"
   },
-  "homepage": "https://github.com/front-jobs/front-jobs.github.io",
-  "dependencies": {
-    "express": "^4.13.4",
-    "hbs": "^4.0.0"
+  "homepage": "https://github.com/front-jobs/front-jobs.github.io#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
