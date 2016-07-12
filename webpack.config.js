@@ -1,14 +1,14 @@
  var path = require('path');
  module.exports = {
-     entry: './src/app.js',
+     entry: './src/main.js',
      output: {
          path: path.resolve(__dirname, 'public'),
          publicPath: '/public/',
-         filename: 'app.bundle.js'
+         filename: 'main.bundle.js'
      },
     module: {
          loaders: [{
-             test: /\.js$/,
+             test: /\.(js|jsx)$/,
              exclude: /node_modules/,
              loader: 'babel-loader',
          }]
