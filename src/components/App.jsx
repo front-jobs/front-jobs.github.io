@@ -12,7 +12,7 @@ class App extends React.Component {
             <MuiThemeProvider>
                 <div> 
                     <p>Welcome to Front Jobs!</p> 
-                    <RaisedButton label="Hello!" />
+                    <RaisedButton label="Hello..." />
                 </div>                
             </MuiThemeProvider>
         )
