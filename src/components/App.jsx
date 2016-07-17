@@ -1,4 +1,6 @@
 import React from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import RaisedButton from 'material-ui/RaisedButton';
 
 class App extends React.Component {
     constructor() {
@@ -7,7 +9,12 @@ class App extends React.Component {
 
     render() {
         return(
-            <div> Welcome to Front Jobs! </div>
+            <MuiThemeProvider>
+                <div> 
+                    <p>Welcome to Front Jobs!</p> 
+                    <RaisedButton label="Hello!" />
+                </div>                
+            </MuiThemeProvider>
         )
     }
 }
