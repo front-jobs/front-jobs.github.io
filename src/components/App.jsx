@@ -1,14 +1,9 @@
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import muiTheme from '../muiTheme';
+import styles from '../styles/App';
 import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
-
-const style = {
-    wrapper: {
-        margin: 8
-    }
-}
 
 class App extends React.Component {
     constructor() {
@@ -18,11 +13,11 @@ class App extends React.Component {
     render() {
         return(
             <MuiThemeProvider muiTheme={muiTheme}>
-                <div>
-                    <AppBar />
-                    <div style={style.wrapper}>
+                <div style={styles.wrapper}>
+                    <AppBar style={styles.appBar} />
+                    <div style={styles.container}>
                         <p>Welcome to Front Jobs!</p> 
-                        <RaisedButton label="Hello..." />
+                        <RaisedButton label="Quer anunciar?" />
                     </div>
                 </div>
             </MuiThemeProvider>
