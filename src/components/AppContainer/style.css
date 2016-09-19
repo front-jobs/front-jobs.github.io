@@ -1,0 +1,6 @@
+.root {
+	height: 100vh;
+    background-image: url("./images/workspace.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

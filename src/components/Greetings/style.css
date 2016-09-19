@@ -1,0 +1,24 @@
+@import 'main.css';
+
+.root {
+	font-family: var(--fontFamily);
+	color: var(--headerColor);
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+	text-align: center;
+}
+
+.image {
+	max-width: 180px;
+}
+
+.text {
+	margin: 0;
+	text-transform: uppercase;
+}
