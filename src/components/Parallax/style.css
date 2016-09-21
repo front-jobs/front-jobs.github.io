@@ -1,0 +1,10 @@
+.root {
+	position: relative;
+    height: 35em;
+    text-indent: -9999px;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/workspace.jpg");
+}

@@ -13,8 +13,9 @@ class Greetings extends React.Component {
             <div className={style.root}>
                 <h1 className={style.logo}>
                     <img className={style.image} src={src}/>
-                    <p className={style.text}>Front Jobs</p>
+                    <span className={style.text}>Front Jobs</span>
                 </h1>
+                <p>Procurando front-end?</p>
             </div>
         )
     }

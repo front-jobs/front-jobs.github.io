@@ -1,7 +1,6 @@
-@import 'main.css';
+@import 'config.css';
 
 .root {
-	font-family: var(--fontFamily);
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;

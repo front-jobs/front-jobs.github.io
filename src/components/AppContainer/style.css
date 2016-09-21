@@ -1,6 +1,15 @@
-.root {
-	height: 100vh;
-    background-image: url("./images/workspace.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+.cover {
+	position: absolute;
+	top: 0;
+	width: 100%;
+    padding: 1em;
 }
