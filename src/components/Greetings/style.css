@@ -2,7 +2,7 @@
 
 .root {
 	color: var(--headerColor);
-    margin: 8px;
+    margin: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
