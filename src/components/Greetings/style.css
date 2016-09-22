@@ -7,10 +7,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.logo {
-	text-align: center;
+    text-align: center;
 }
 
 .image {
@@ -21,4 +18,13 @@
 	display: block;
 	margin: 1em 0 0;
 	text-transform: uppercase;
+}
+
+.button {
+	composes: button from 'styles/button.css';
+	color: #fff;
+}
+
+.button:hover {
+	background-color: #e34f26;
 }

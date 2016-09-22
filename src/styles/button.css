@@ -1,0 +1,7 @@
+.button {
+	padding: 10px 15px;
+	border: thin solid;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: all .2s linear;
+}
