@@ -1,7 +1,10 @@
 .button {
+	display: inline-block;
 	padding: 10px 15px;
 	border: thin solid;
 	border-radius: 5px;
 	text-decoration: none;
+	background-color: transparent;
+    cursor: pointer;
 	transition: all .2s linear;
 }
