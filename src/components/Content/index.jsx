@@ -1,5 +1,6 @@
 import React from 'react';
 import Firebase from 'firebase';
+import JobsContainer from 'components/JobsContainer';
 import style from './style.css';
 
 class Content extends React.Component {
@@ -18,6 +19,7 @@ class Content extends React.Component {
         return(
             <div className={style.root}>
                 {this.greetings}
+                <JobsContainer/>
             </div>
         )
     }
