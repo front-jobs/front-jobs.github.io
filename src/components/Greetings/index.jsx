@@ -11,12 +11,12 @@ class Greetings extends React.Component {
 
         return(
             <div className={style.root}>
-                <h1>
-                    <img className={style.image} src={src}/>
-                    <span className={style.text}>Front Jobs</span>
+                <h1 className={style.title}>
+                    <img src={src}/>
+                    <span>Front Jobs</span>
                 </h1>
-                <div>
-                    <h2>Procurando front-end?</h2>
+                <div className={style.advert}>
+                    <h2 className={style.text}>Procurando front-end?</h2>
                     <p>Se você ou sua empresa está precisando de um front-end, anuncie sua vaga no Front Jobs.</p>
                     <a className={style.button} href="">Anuncie uma vaga</a>
                 </div>

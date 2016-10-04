@@ -19,6 +19,7 @@ class JobsContainer extends React.Component {
     render() {
         return(
             <div>
+                <h1>{this.props.title}</h1>
                 <SearchBar send={this.updateJobs.bind(this)} />
                 <JobsList results={this.state.results}/>
             </div>
